@@ -1,0 +1,3 @@
+Model,Task,Accuracy,Precision,Recall,F1_Score
+XGBoost,Recommended Staff Prediction,1.0,1.0,1.0,1.0
+Random Forest,Recommended Staff Prediction,1.0,1.0,1.0,1.0

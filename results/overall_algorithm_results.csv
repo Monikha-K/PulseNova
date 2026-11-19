@@ -1,0 +1,4 @@
+Algorithm,Application,Primary Metric,Value
+XGBoost,Recommended Staff Prediction,Accuracy,1.0
+Random Forest,Recommended Staff Prediction,Accuracy,1.0
+"ARIMA(1,1,1)",Daily Patient Admission Forecasting,MAE,5.791227336576011

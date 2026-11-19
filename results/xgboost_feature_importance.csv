@@ -1,0 +1,11 @@
+Feature,Importance
+numerical__patients_admitted,0.7621375
+numerical__max_occupancy,0.11470433
+numerical__avg_stay,0.042056322
+numerical__avg_satisfaction,0.039190434
+categorical__service_ICU,0.03447517
+categorical__service_general_medicine,0.005052279
+numerical__staff_count,0.0016143647
+numerical__week,0.00076962437
+categorical__service_emergency,0.0
+categorical__service_surgery,0.0

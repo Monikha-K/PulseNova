@@ -1,0 +1,4 @@
+Component,Objective,Result
+XGBoost,Predict recommended hospital staffing level,Accuracy = 100.00%
+Random Forest,Predict recommended hospital staffing level,Accuracy = 100.00%
+ARIMA,Forecast daily patient admissions,"MAE = 5.79, RMSE = 10.01"

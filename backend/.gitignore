@@ -1,0 +1,28 @@
+# ── Virtual environment ───────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Python cache ──────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ── Environment / secrets ─────────────────────────────────
+.env
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+uvicorn_test.log
+
+# ── Pytest / coverage ─────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Distribution ──────────────────────────────────────────
+dist/
+build/
+*.egg-info/

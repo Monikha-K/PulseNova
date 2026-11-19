@@ -1,0 +1,94 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+backend/venv/
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment / secrets ─────────────────────────────────
+.env
+backend/.env
+frontend/.env
+*.env.local
+*.env.*.local
+
+# ── Node / Frontend ───────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.cache/
+*.local
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+uvicorn_test.log
+
+# ── OS ────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Editors ───────────────────────────────────────────────
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.bak
+*.tmp
+
+# ── Pytest / coverage ─────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Temporary / scratch files ─────────────────────────────
+verify_*.py
+verify_*.txt
+inspect_*.py
+test_backend.py
+verify_data.py
+*.tmp
+*.temp
+
+# ── Duplicate root-level CSVs (canonical copies in dataset/) ──
+/healthcare_dataset.csv
+/healthcare_analytics_patient_flow_data.csv
+/Hospital ER_Data.csv
+/hospital_insights_summary.csv

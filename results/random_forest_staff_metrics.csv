@@ -1,0 +1,2 @@
+Model,Target,Accuracy,Precision,Recall,F1_Score
+Random Forest,Recommended Staff,1.0,1.0,1.0,1.0
